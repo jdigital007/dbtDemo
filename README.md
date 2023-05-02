@@ -8,21 +8,28 @@
 ### Upgrade
 
 pip install --upgrade dbt-snowflake
+
 pip install --upgrade dbt-core
+
 pip install --upgrade dbt-postgres
 
 #### Try running the following commands
 
 dbt debug
+
 dbt build
 dbt deps
 dbt parse
+
 dbt run --full-refresh
-dbt run
 dbt seed
+
 dbt compile
+
 dbt test
+
 dbt docs generate
+
 dbt docs serve
-dbt source
+
 dbt init
